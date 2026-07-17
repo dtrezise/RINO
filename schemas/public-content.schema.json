@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://rino.example/schemas/public-content.schema.json",
+  "title": "RINO public content export",
+  "type": "object",
+  "required": ["schemaVersion", "generatedAt", "project", "principles", "platform", "tests", "eboxes", "updates"],
+  "properties": {
+    "schemaVersion": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "project": { "type": "object" },
+    "principles": { "type": "array" },
+    "platform": { "type": "object" },
+    "tests": { "type": "array" },
+    "eboxes": {
+      "type": "array",
+      "items": { "$ref": "./ebox.schema.json" }
+    },
+    "updates": { "type": "array" }
+  },
+  "additionalProperties": false
+}

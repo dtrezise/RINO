@@ -1,0 +1,310 @@
+{
+  "schemaVersion": "0.1.0",
+  "generatedAt": "2026-07-17T16:00:00Z",
+  "project": {
+    "name": "RINO",
+    "expandedName": "Reasonable Intelligent Nationalist Optimists",
+    "status": "WORKING — proposed organization",
+    "statusSummary": "RINO is an exploratory civic and political-party project. It is not presented as an officially recognized, ballot-qualified, FEC-qualified, or tax-exempt organization.",
+    "tagline": "Disagree like neighbors. Govern like the country depends on it.",
+    "acronymCandidates": [
+      {
+        "words": "Reasonable Intelligent Nationalist Optimists",
+        "note": "Original working expansion supplied by the founder."
+      },
+      {
+        "words": "Rational Independent Neighborly Optimists",
+        "note": "Emphasizes independent judgment and civic neighborliness."
+      },
+      {
+        "words": "Responsible Inclusive National Optimists",
+        "note": "Emphasizes broad belonging and national stewardship."
+      },
+      {
+        "words": "Respectful Informed Nationbuilding Organizers",
+        "note": "Emphasizes discourse, evidence, and practical institution-building."
+      },
+      {
+        "words": "Reformers Integrating National Opportunity",
+        "note": "Emphasizes reform and shared opportunity."
+      },
+      {
+        "words": "Reason Integrity Negotiation Optimism",
+        "note": "A values-first, noun-based expansion centered on good-faith bargaining."
+      }
+    ]
+  },
+  "principles": [
+    {
+      "id": "principle-respect",
+      "number": "01",
+      "title": "Respect without surrender",
+      "summary": "Strong disagreement is compatible with dignity. No person becomes an enemy merely by voting, praying, living, or reasoning differently."
+    },
+    {
+      "id": "principle-evidence",
+      "number": "02",
+      "title": "Evidence before accusation",
+      "summary": "Public claims should be testable, sourced, narrowly written, and correctable. Interpretation must not masquerade as fact."
+    },
+    {
+      "id": "principle-country",
+      "number": "03",
+      "title": "Country before faction",
+      "summary": "The aim is not permanent control by one camp. It is a system where major decisions require listening, negotiation, and durable consent."
+    },
+    {
+      "id": "principle-pluralism",
+      "number": "04",
+      "title": "Belonging across difference",
+      "summary": "The working invitation is open across prior party, heritage, geography, faith, and walk of life, with equal civic standing and no demonization."
+    }
+  ],
+  "platform": {
+    "status": "WORKING — questions, not positions",
+    "summary": "The first platform process starts with questions and evidence. No item below is an adopted RINO policy commitment.",
+    "issueLabs": [
+      {
+        "id": "lab-democracy",
+        "title": "Democratic capacity",
+        "question": "Which reforms would make governing institutions more representative, accountable, and capable of compromise?",
+        "stage": "Listening brief"
+      },
+      {
+        "id": "lab-opportunity",
+        "title": "Cost of living and opportunity",
+        "question": "Where do housing, health, education, work, and family costs most constrain everyday freedom?",
+        "stage": "Evidence map"
+      },
+      {
+        "id": "lab-resilience",
+        "title": "National resilience",
+        "question": "How should the United States strengthen security, infrastructure, disaster readiness, and trusted public systems?",
+        "stage": "Scope definition"
+      },
+      {
+        "id": "lab-community",
+        "title": "Community and civic repair",
+        "question": "What helps Americans rebuild local trust, associations, service, and the habits of shared citizenship?",
+        "stage": "Listening brief"
+      }
+    ]
+  },
+  "tests": [
+    {
+      "id": "RINO-TEST-001",
+      "name": "Public Claim Integrity Check",
+      "status": "WORKING — illustrative methodology",
+      "purpose": "Assess whether a public-facing RINO status claim is precise, sourced, contextualized, and correctable.",
+      "identifyingColor": "#bc8d3f",
+      "methodologySlug": "public-claim-integrity",
+      "rubricAnchor": "methods-public-claim-integrity",
+      "version": "0.1.0",
+      "reviewDate": "2026-07-17",
+      "criteria": [
+        {
+          "id": "scope",
+          "name": "Scope",
+          "question": "Does the wording stay within what the cited record establishes?",
+          "guidance": "0 conflicts directly; 2 is materially limited or unresolved; 4 is tightly matched to the record."
+        },
+        {
+          "id": "authority",
+          "name": "Authority",
+          "question": "Are controlling or primary sources used where available?",
+          "guidance": "0 lacks support; 2 relies on an incomplete bridge; 4 uses the most relevant primary authority."
+        },
+        {
+          "id": "context",
+          "name": "Context",
+          "question": "Are meaningful qualifications and contrary context preserved?",
+          "guidance": "0 omits decisive context; 2 is incomplete; 4 discloses material limitations."
+        },
+        {
+          "id": "correction",
+          "name": "Correction path",
+          "question": "Can a reader identify review timing and request a correction?",
+          "guidance": "0 has no path; 2 has a partial path; 4 has stable review and correction mechanisms."
+        }
+      ],
+      "scoreBands": [
+        { "min": 0, "max": 24, "label": "Severe conflict" },
+        { "min": 25, "max": 49, "label": "Fails" },
+        { "min": 50, "max": 64, "label": "Mixed or contested" },
+        { "min": 65, "max": 79, "label": "Substantial alignment" },
+        { "min": 80, "max": 100, "label": "Passes" }
+      ],
+      "foundationalSourceIds": ["SRC-FEC-QUALIFY"]
+    }
+  ],
+  "eboxes": [
+    {
+      "id": "RINO-EBOX-0001",
+      "slug": "rino-formation-status",
+      "title": "RINO is a proposal, not yet a qualified political party",
+      "category": "Party formation",
+      "subjects": ["RINO", "organizational status", "campaign finance"],
+      "tags": ["formation", "status", "FEC"],
+      "relevantDate": "Reviewed July 17, 2026",
+      "claimStatus": "WORKING STATUS",
+      "factualSummary": "This project has established a local product foundation and a protected-preview plan. It has not established or verified ballot qualification, Federal Election Commission political-party status, a registered political committee, Section 527 status, or authority to solicit contributions.",
+      "whyItMatters": "A proposed party should not borrow credibility from legal statuses it has not earned. Keeping formation, ballot access, committee registration, and tax treatment distinct protects prospective supporters and gives the project an honest roadmap.",
+      "claims": [
+        {
+          "id": "CLM-0001-A",
+          "text": "Federal political-party status carries criteria beyond choosing a name or launching a website.",
+          "status": "supported"
+        },
+        {
+          "id": "CLM-0001-B",
+          "text": "RINO has not supplied evidence in this workspace of ballot qualification, FEC committee registration, or federal tax status.",
+          "status": "project-record status"
+        }
+      ],
+      "sources": [
+        {
+          "id": "SRC-FEC-QUALIFY",
+          "sourceType": "official guidance",
+          "publisher": "Federal Election Commission",
+          "title": "Qualifying as a political party committee",
+          "url": "https://www.fec.gov/help-candidates-and-committees/registering-political-party/qualifying-as-a-political-party-committee/",
+          "retrievalDate": "2026-07-17",
+          "authorityTier": "primary official guidance",
+          "accessState": "public",
+          "locator": "Federal law; State law; qualifying sections",
+          "excerpt": "Federal and state status questions use distinct criteria; ballot access is governed by state law.",
+          "copyrightStatus": "short paraphrase"
+        },
+        {
+          "id": "SRC-FEC-REGISTER",
+          "sourceType": "official guidance",
+          "publisher": "Federal Election Commission",
+          "title": "Registering a party committee",
+          "url": "https://www.fec.gov/help-candidates-and-committees/registering-political-party/registering-political-party-committee/",
+          "retrievalDate": "2026-07-17",
+          "authorityTier": "primary official guidance",
+          "accessState": "public",
+          "locator": "Registration thresholds; How to register",
+          "excerpt": "Registration and recurring reporting duties can follow once statutory financial thresholds are crossed.",
+          "copyrightStatus": "short paraphrase"
+        }
+      ],
+      "sourceRelationships": [
+        {
+          "claimId": "CLM-0001-A",
+          "sourceId": "SRC-FEC-QUALIFY",
+          "relationship": "supports",
+          "note": "Defines the federal and state-law criteria that a party organization must distinguish."
+        },
+        {
+          "claimId": "CLM-0001-A",
+          "sourceId": "SRC-FEC-REGISTER",
+          "relationship": "contextualizes",
+          "note": "Explains when a party organization becomes subject to federal registration and reporting."
+        }
+      ],
+      "limitingContext": [
+        "This record reports what has and has not been verified in the project workspace; it is not a legal opinion.",
+        "Launching a civic association, qualifying for a state ballot, registering a committee, and qualifying for federal party benefits are separate questions."
+      ],
+      "denialsAndResponses": [],
+      "corrections": [],
+      "applicableTests": [
+        {
+          "testId": "RINO-TEST-001",
+          "finding": "Passes",
+          "applicableCriteria": ["scope", "authority", "context", "correction"],
+          "criterionScores": [
+            { "criterionId": "scope", "score": 4, "rationale": "The claim is limited to currently verified workspace and official-status facts." },
+            { "criterionId": "authority", "score": 4, "rationale": "The FEC guidance is the relevant federal primary source for the claims made." },
+            { "criterionId": "context", "score": 4, "rationale": "The text separates multiple status questions and avoids implying legal advice." },
+            { "criterionId": "correction", "score": 4, "rationale": "The record has a stable route, review date, and correction mechanism." }
+          ],
+          "earnedPoints": 16,
+          "possiblePoints": 16,
+          "normalizedScore": 100,
+          "explanation": "The current copy accurately discloses the project’s unverified legal and organizational status.",
+          "reviewer": "Codex first-pass editorial review",
+          "reviewDate": "2026-07-17",
+          "status": "ILLUSTRATIVE — not an adopted public party score"
+        }
+      ],
+      "expertInterviewCompanion": {
+        "status": "private brief required before substantive expansion",
+        "publicCandidateCount": 0
+      },
+      "editorialReview": {
+        "status": "WORKING",
+        "reviewedBy": "Codex first-pass editorial review",
+        "reviewDate": "2026-07-17"
+      }
+    },
+    {
+      "id": "RINO-EBOX-0002",
+      "slug": "ballot-access-is-state-by-state",
+      "title": "A national name does not create nationwide ballot access",
+      "category": "Ballot access",
+      "subjects": ["state election law", "party recognition", "ballot access"],
+      "tags": ["formation", "states", "ballot access"],
+      "relevantDate": "Reviewed July 17, 2026",
+      "claimStatus": "DOCUMENTED PROCESS",
+      "factualSummary": "Federal election law defines political-party status for federal campaign-finance purposes, but states control access to their ballots. A new organization must investigate each relevant state’s current law, deadlines, petition or support rules, candidate procedures, and status-retention requirements.",
+      "whyItMatters": "A credible launch plan cannot treat one federal filing or national announcement as a substitute for state-by-state organizing. Geography, candidate strategy, timing, and legal review have to be planned together.",
+      "claims": [
+        {
+          "id": "CLM-0002-A",
+          "text": "Ballot access is governed by state law and varies by state.",
+          "status": "supported"
+        }
+      ],
+      "sources": [
+        {
+          "id": "SRC-FEC-QUALIFY",
+          "sourceType": "official guidance",
+          "publisher": "Federal Election Commission",
+          "title": "Qualifying as a political party committee",
+          "url": "https://www.fec.gov/help-candidates-and-committees/registering-political-party/qualifying-as-a-political-party-committee/",
+          "retrievalDate": "2026-07-17",
+          "authorityTier": "primary official guidance",
+          "accessState": "public",
+          "locator": "State law; Ballot Access",
+          "excerpt": "The FEC directs organizations to the relevant state election office for state-specific party-status information.",
+          "copyrightStatus": "short paraphrase"
+        }
+      ],
+      "sourceRelationships": [
+        {
+          "claimId": "CLM-0002-A",
+          "sourceId": "SRC-FEC-QUALIFY",
+          "relationship": "supports",
+          "note": "States that ballot access is governed by state law and directs organizations to state election officials."
+        }
+      ],
+      "limitingContext": [
+        "This first-pass record does not summarize any individual state’s current requirements.",
+        "State rules and deadlines can change and require live verification before action."
+      ],
+      "denialsAndResponses": [],
+      "corrections": [],
+      "applicableTests": [],
+      "expertInterviewCompanion": {
+        "status": "private brief required before state-specific publication",
+        "publicCandidateCount": 0
+      },
+      "editorialReview": {
+        "status": "WORKING",
+        "reviewedBy": "Codex first-pass editorial review",
+        "reviewDate": "2026-07-17"
+      }
+    }
+  ],
+  "updates": [
+    {
+      "id": "update-001",
+      "date": "2026-07-17",
+      "type": "BUILD NOTE",
+      "title": "The first private product foundation is underway",
+      "summary": "The first pass establishes the identity, status safeguards, public evidence model, platform-question labs, participation routes, and shared website/app data."
+    }
+  ]
+}
