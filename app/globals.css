@@ -59,20 +59,26 @@ h1, h2 { font-family: var(--serif); font-weight: 500; }
 .button-ink { background: var(--ink); color: var(--bright-paper); }
 .button-gold { border-color: var(--gold); background: var(--gold); color: var(--ink); }
 
-.hero { min-height: min(760px, calc(100vh - 102px)); display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(320px, 0.65fr); gap: clamp(50px, 8vw, 112px); align-items: center; padding-block: 70px; }
+.hero { min-height: min(820px, calc(100vh - 102px)); display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(350px, 0.75fr); gap: clamp(50px, 7vw, 96px); align-items: center; padding-block: 70px; }
 .hero-copy h1 { max-width: 850px; margin-bottom: 28px; font-size: clamp(3.2rem, 6.2vw, 6.5rem); letter-spacing: -0.045em; }
 .hero-copy h1 em { color: var(--red); font-weight: 400; }
 .hero-deck { max-width: 760px; margin-bottom: 30px; color: var(--soft-ink); font-family: var(--serif); font-size: clamp(1.18rem, 2vw, 1.55rem); line-height: 1.48; }
 .hero-actions, .record-actions, .dialog-actions { display: flex; flex-wrap: wrap; gap: 10px; }
 .legal-note { margin-top: 18px; color: var(--muted); font-size: 0.74rem; }
-.hero-identity { position: relative; min-height: 480px; display: flex; flex-direction: column; justify-content: flex-end; padding: 28px; border: 1px solid var(--ink); background-color: var(--bright-paper); background-image: linear-gradient(var(--rule) 1px, transparent 1px), linear-gradient(90deg, var(--rule) 1px, transparent 1px); background-size: 32px 32px; box-shadow: 18px 18px 0 var(--navy); overflow: hidden; }
-.hero-identity::before { content: "A THIRD FORCE"; position: absolute; inset: 26px auto auto -15px; transform: rotate(-5deg); padding: 8px 24px; border: 3px solid var(--red); color: var(--red); font-size: 0.72rem; font-weight: 900; letter-spacing: 0.15em; }
-.identity-stamp { position: absolute; top: 28px; right: 28px; padding: 9px; border: 1px solid var(--ink); background: var(--paper); font-size: 0.61rem; font-weight: 850; letter-spacing: 0.09em; line-height: 1.35; }
-.letter-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 3px; width: 100%; margin-bottom: 22px; }
-.letter-grid span { min-height: 98px; display: grid; place-items: center; background: var(--ink); color: var(--paper); font-family: var(--serif); font-size: 4.8rem; font-weight: 700; line-height: 1; }
-.letter-grid span:nth-child(4) { background: var(--red); }
-.identity-definition { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 18px; padding: 14px 0; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--ink); font-size: 0.73rem; font-weight: 800; letter-spacing: 0.09em; text-transform: uppercase; }
-.hero-identity > p { margin: 12px 0 0; font-size: 0.7rem; font-weight: 700; }
+.hero-identity { position: relative; min-height: 640px; display: flex; flex-direction: column; justify-content: flex-end; border: 1px solid var(--ink); background: var(--bright-paper); box-shadow: 18px 18px 0 var(--navy); overflow: hidden; }
+.hero-identity::before { content: "A THIRD FORCE"; position: absolute; z-index: 4; inset: 28px auto auto -15px; transform: rotate(-5deg); padding: 8px 24px; border: 3px solid var(--red); background: var(--paper); color: var(--red); font-size: 0.72rem; font-weight: 900; letter-spacing: 0.15em; }
+.identity-stamp { position: absolute; z-index: 4; top: 24px; right: 22px; padding: 9px; border: 1px solid var(--ink); background: var(--paper); font-size: 0.58rem; font-weight: 850; letter-spacing: 0.08em; line-height: 1.35; text-align: right; }
+.mascot-stage { position: relative; min-height: 430px; flex: 1; overflow: hidden; border-bottom: 1px solid var(--ink); background-color: var(--paper); background-image: linear-gradient(var(--rule) 1px, transparent 1px), linear-gradient(90deg, var(--rule) 1px, transparent 1px); background-size: 32px 32px; }
+.mascot-stage::after { content: "SIGNAL > NOISE"; position: absolute; z-index: 3; right: 18px; bottom: 16px; padding: 6px 9px; background: var(--ink); color: var(--gold); font-size: 0.61rem; font-weight: 900; letter-spacing: 0.13em; }
+.noise-field { position: absolute; inset: 72px -28px auto; display: grid; grid-template-columns: repeat(2, 1fr); gap: 3px 18px; transform: rotate(-8deg); color: var(--rule); font-family: var(--serif); font-size: clamp(3rem, 6vw, 5.3rem); font-weight: 700; line-height: 0.86; opacity: 0.62; }
+.noise-field span:nth-child(3n) { color: color-mix(in srgb, var(--red) 24%, var(--rule)); }
+.mascot-image { position: absolute; z-index: 2; left: 50%; bottom: -18px; width: 88%; height: 94%; transform: translateX(-50%); object-fit: contain; object-position: center bottom; filter: drop-shadow(9px 11px 0 color-mix(in srgb, var(--navy) 24%, transparent)); }
+.mascot-copy { padding: 20px 26px 17px; background: var(--bright-paper); }
+.mascot-copy .eyebrow { margin-bottom: 7px; }
+.mascot-copy h2 { margin-bottom: 8px; font-size: clamp(1.8rem, 2.9vw, 2.55rem); }
+.mascot-copy > p:last-child { margin-bottom: 0; color: var(--soft-ink); font-size: 0.83rem; }
+.identity-definition { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 18px; padding: 13px 26px; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--ink); background: var(--paper); font-size: 0.7rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+.identity-note { margin: 0; padding: 10px 26px 12px; background: var(--bright-paper); font-size: 0.66rem; font-weight: 700; }
 
 .thesis-band { background: var(--ink); color: var(--bright-paper); }
 .thesis-grid { display: grid; grid-template-columns: 180px 1.4fr 0.8fr; gap: 48px; align-items: start; padding-block: 68px; }
@@ -304,7 +310,8 @@ h1, h2 { font-family: var(--serif); font-weight: 500; }
   .primary-nav a { justify-items: start; padding: 11px 8px; }
   .primary-nav a::after { left: 8px; right: auto; width: 50px; }
   .hero { grid-template-columns: 1fr; min-height: auto; }
-  .hero-identity { width: min(620px, calc(100% - 18px)); min-height: 430px; }
+  .hero-identity { width: min(620px, calc(100% - 18px)); min-height: 680px; }
+  .mascot-stage { min-height: 470px; }
   .thesis-grid { grid-template-columns: 1fr 2fr; }
   .thesis-grid > p:last-child { grid-column: 2; }
   .principle-grid { grid-template-columns: repeat(2, 1fr); }
@@ -330,9 +337,12 @@ h1, h2 { font-family: var(--serif); font-weight: 500; }
   .hero { padding-block: 48px 64px; gap: 50px; }
   .hero-copy h1 { font-size: clamp(2.75rem, 14vw, 4.4rem); }
   .hero-actions .button, .record-actions .button { width: 100%; }
-  .hero-identity { min-height: 390px; padding: 20px; box-shadow: 10px 10px 0 var(--navy); }
-  .letter-grid span { min-height: 78px; font-size: 3.8rem; }
-  .identity-stamp { top: 20px; right: 20px; }
+  .hero-identity { min-height: 620px; box-shadow: 10px 10px 0 var(--navy); }
+  .mascot-stage { min-height: 415px; }
+  .noise-field { inset: 78px -20px auto; font-size: 3.2rem; }
+  .mascot-image { width: 86%; height: 92%; }
+  .mascot-copy, .identity-definition, .identity-note { padding-left: 20px; padding-right: 20px; }
+  .identity-stamp { top: 18px; right: 16px; }
   .thesis-grid { grid-template-columns: 1fr; gap: 22px; padding-block: 54px; }
   .thesis-grid > p:last-child { grid-column: auto; }
   .principles-preview, .evidence-preview, .name-lab, .participation-callout { padding-block: 74px; }

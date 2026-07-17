@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { EvidenceCard } from "@/components/EvidenceCard";
 import { content, eboxes } from "@/lib/content";
 
@@ -19,10 +20,27 @@ export default function Home() {
           </div>
           <p className="legal-note">No donations. No membership enrollment. No claim of official party or ballot status.</p>
         </div>
-        <div className="hero-identity" aria-label="RINO working identity">
-          <div className="identity-stamp">WORKING<br />NO. 001</div>
-          <div className="letter-grid" aria-hidden="true">
-            <span>R</span><span>I</span><span>N</span><span>O</span>
+        <div className="hero-identity hero-mascot" aria-labelledby="mascot-heading">
+          <div className="identity-stamp">WORKING MASCOT<br />NO. 001</div>
+          <div className="mascot-stage">
+            <div className="noise-field" aria-hidden="true">
+              <span>NOISE</span><span>NOISE</span><span>NOISE</span><span>NOISE</span>
+              <span>NOISE</span><span>NOISE</span><span>NOISE</span><span>NOISE</span>
+            </div>
+            <Image
+              className="mascot-image"
+              src="/rino-mascot-v1.png"
+              width={1024}
+              height={1536}
+              alt="A calm, powerful rhinoceros standing squarely, illustrated in navy ink with red and gold accents."
+              priority
+              sizes="(max-width: 980px) 520px, 34vw"
+            />
+          </div>
+          <div className="mascot-copy">
+            <p className="eyebrow">Working mascot / signal over noise</p>
+            <h2 id="mascot-heading">Strength without spectacle.</h2>
+            <p>Resolve without demonization. Tough enough to stand its ground—and steady enough to listen.</p>
           </div>
           <div className="identity-definition">
             <span>Reasonable</span>
@@ -30,7 +48,7 @@ export default function Home() {
             <span>Nationalist</span>
             <span>Optimists</span>
           </div>
-          <p>Original expansion / under review with five alternatives below.</p>
+          <p className="identity-note">Original expansion / under review with five alternatives below.</p>
         </div>
       </section>
 

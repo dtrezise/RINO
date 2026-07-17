@@ -2,7 +2,9 @@
 
 ## Identity idea
 
-The first-pass identity treats RINO as an editorial seal, not a cartoon mascot. A circular `R` seal, disciplined four-letter grid, registration marks, status stamps, paper rules, and evidence-ledger typography signal an institution under construction. No government seal, flag lockup, official eagle, or misleading public-authority device is used.
+The first-pass identity combines an editorial seal with a dignified rhinoceros mascot. The rhino is naturally powerful, calm, forward-standing, and alert: strength without spectacle and resolve without demonization. It is not costumed, militarized, enraged, or rendered as a childish cartoon. The illustration uses the project’s ink, paper, navy, civic red, and muted gold system, emerging from a field of repeated “noise” as a composed visual signal.
+
+A circular `R` seal, disciplined typography, registration marks, status stamps, paper rules, and evidence-ledger hierarchy still signal an institution under construction. No government seal, flag lockup, official eagle, or misleading public-authority device is used.
 
 ## Voice
 
