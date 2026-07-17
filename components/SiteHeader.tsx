@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { siteBasePath } from "@/lib/site-paths";
 
 const navigation = [
   { href: "/", label: "Home" },
@@ -17,14 +18,17 @@ const navigation = [
 export function SiteHeader() {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
+  const currentPath = siteBasePath && pathname.startsWith(siteBasePath)
+    ? pathname.slice(siteBasePath.length) || "/"
+    : pathname;
 
   const isActive = (href: string) =>
-    href === "/" ? pathname === "/" : pathname.startsWith(href.replace(/\/$/, ""));
+    href === "/" ? currentPath === "/" : currentPath.startsWith(href.replace(/\/$/, ""));
 
   return (
     <>
       <div className="working-bar" role="status">
-        <span>PRIVATE WORKING PREVIEW</span>
+        <span>TEMPORARY PUBLIC WORKING PREVIEW</span>
         <Link href="/status/">Proposed organization — status not established</Link>
       </div>
       <header className="site-header">

@@ -44,13 +44,13 @@ Five requested alternatives to the original expansion:
 
 All remain working candidates. `DAN NEEDED`: select an expansion only after political, linguistic, trademark, domain, and coalition review.
 
-## Success signals for the private preview
+## Success signals for the temporary public preview
 
 - Status safeguards remain visible and accurate across routes and social metadata.
 - Every eBox resolves to a canonical page with claims, sources, relationships, limitations, review state, share behavior, and correction path.
 - Keyboard, touch, zoom, reflow, reduced motion, and screen-reader landmarks work.
 - Public data validates and matches the iPhone resource exactly.
-- No active donation, membership, supporter submission, analytics profile, fabricated person, or public deployment exists.
+- No active donation, membership, supporter submission, analytics profile, or fabricated person exists; the temporary public deployment remains clearly labeled as a working preview.
 
 ## Explicit non-goals
 

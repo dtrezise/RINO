@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import { sitePath } from "@/lib/site-paths";
 
 type ShareComposerProps = {
   title: string;
@@ -16,8 +17,8 @@ export function ShareComposer({ title, status, summary, slug }: ShareComposerPro
   const closeRef = useRef<HTMLButtonElement>(null);
   const [copy, setCopy] = useState(`${title} — ${status}. ${summary}`);
   const shareUrl = open && typeof window !== "undefined"
-    ? `${window.location.origin}/evidence/${slug}/`
-    : `/evidence/${slug}/`;
+    ? `${window.location.origin}${sitePath(`/evidence/${slug}/`)}`
+    : sitePath(`/evidence/${slug}/`);
 
   const destinations = useMemo(() => {
     const encodedUrl = encodeURIComponent(shareUrl);

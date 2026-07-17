@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { sitePath } from "@/lib/site-paths";
 
 export function Footer() {
   return (
@@ -18,7 +19,7 @@ export function Footer() {
           <h2>Ground rules</h2>
           <Link href="/privacy/">Privacy</Link>
           <Link href="/terms/">Terms</Link>
-          <a href="/data/rino-public-export.json">Public data export</a>
+          <a href={sitePath("/data/rino-public-export.json")}>Public data export</a>
         </div>
       </div>
       <div className="footer-fineprint">

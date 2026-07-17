@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { CSSProperties } from "react";
 import type { EvidenceBox } from "@/lib/content";
 import { getTest } from "@/lib/content";
+import { sitePath } from "@/lib/site-paths";
 import { ShareComposer } from "./ShareComposer";
 
 export function EvidenceRecord({ ebox }: { ebox: EvidenceBox }) {
@@ -18,7 +19,7 @@ export function EvidenceRecord({ ebox }: { ebox: EvidenceBox }) {
         <p className="record-summary">{ebox.factualSummary}</p>
         <div className="record-actions">
           <ShareComposer title={ebox.title} status={ebox.claimStatus} summary={ebox.factualSummary} slug={ebox.slug} />
-          <a className="button" href={`/data/rino-public-export.json#${ebox.id}`}>View structured data</a>
+          <a className="button" href={`${sitePath("/data/rino-public-export.json")}#${ebox.id}`}>View structured data</a>
         </div>
       </header>
 

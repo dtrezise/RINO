@@ -12,7 +12,7 @@ export default function CorrectionsPage() {
       <PageMasthead
         eyebrow="Corrections / channel pending"
         title="Specific corrections deserve specific answers."
-        summary="The correction standard is active in the product model. The external submission channel is not active in this private preview."
+        summary="The correction standard is active in the product model. The external submission channel is not active in this working preview."
       />
       <section className="correction-guide">
         <h2>A useful correction request includes:</h2>

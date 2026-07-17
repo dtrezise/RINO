@@ -21,7 +21,7 @@ test("server-renders the RINO product shell without starter metadata", async () 
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
   const html = await response.text();
   assert.match(html, /RINO — A proposed party/);
-  assert.match(html, /PRIVATE WORKING PREVIEW/);
+  assert.match(html, /TEMPORARY PUBLIC WORKING PREVIEW/);
   assert.match(html, /Disagree like neighbors/);
   assert.match(html, /rino-mascot-v1\.png/);
   assert.match(html, /A calm, powerful rhinoceros standing squarely/);

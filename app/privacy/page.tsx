@@ -2,14 +2,14 @@ import { PageMasthead } from "@/components/PageMasthead";
 
 export const metadata = {
   title: "Privacy",
-  description: "The working privacy baseline for the RINO private preview.",
+  description: "The working privacy baseline for the RINO public preview.",
   alternates: { canonical: "/privacy/" },
 };
 
 export default function PrivacyPage() {
   return (
     <main id="main-content" className="section-shell page-shell narrow-page policy-page">
-      <PageMasthead eyebrow="Privacy / working baseline" title="Collect less. Explain more. Delete on purpose." summary="This private first pass is designed to work without supporter accounts, tracking profiles, donation data, or active submission forms." />
+      <PageMasthead eyebrow="Privacy / working baseline" title="Collect less. Explain more. Delete on purpose." summary="This public first pass is designed to work without supporter accounts, tracking profiles, donation data, or active submission forms." />
       <h2>Current preview</h2>
       <p>The product does not intentionally collect supporter names, email addresses, phone numbers, political affiliations, payment information, or formal membership records. The participation form is disabled and does not submit data.</p>
       <h2>Device-local behavior</h2>

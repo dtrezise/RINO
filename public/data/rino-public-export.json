@@ -300,6 +300,13 @@
   ],
   "updates": [
     {
+      "id": "update-002",
+      "date": "2026-07-17",
+      "type": "RELEASE NOTE",
+      "title": "A temporary public working preview is now available",
+      "summary": "The website is publicly viewable for review while donations, submissions, membership, endorsements, and official party-status claims remain inactive."
+    },
+    {
       "id": "update-001",
       "date": "2026-07-17",
       "type": "BUILD NOTE",

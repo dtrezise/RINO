@@ -1,8 +1,8 @@
 {
   "name": "RINO — Working Civic Platform",
   "short_name": "RINO",
-  "description": "Private working preview for a proposed party built around evidence and productive disagreement.",
-  "start_url": "/",
+  "description": "Working preview for a proposed party built around evidence and productive disagreement.",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#f5f0e7",
   "theme_color": "#10151c",

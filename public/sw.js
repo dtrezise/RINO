@@ -1,5 +1,7 @@
 const CACHE_NAME = "rino-working-v1";
-const APP_SHELL = ["/", "/principles/", "/platform/", "/evidence/", "/act/", "/methods/", "/manifest.webmanifest"];
+const SCOPE_PATH = new URL(self.registration.scope).pathname.replace(/\/$/, "");
+const scopedPath = (path) => `${SCOPE_PATH}${path}`;
+const APP_SHELL = ["/", "/principles/", "/platform/", "/evidence/", "/act/", "/methods/", "/manifest.webmanifest"].map(scopedPath);
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(APP_SHELL)));
@@ -17,5 +19,5 @@ self.addEventListener("fetch", (event) => {
     const copy = response.clone();
     caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
     return response;
-  }).catch(() => caches.match(event.request).then((cached) => cached || caches.match("/"))));
+  }).catch(() => caches.match(event.request).then((cached) => cached || caches.match(scopedPath("/")))));
 });

@@ -1,6 +1,6 @@
 # RINO civic platform — WORKING
 
-RINO is a private first-pass product for a proposed U.S. political party. The current working expansion is **Reasonable Intelligent Nationalist Optimists**. The project reclaims “RINO” as an invitation to reason, evidence, national purpose, optimism, and respectful disagreement across prior political identities.
+RINO is a temporary public working preview for a proposed U.S. political party. The current working expansion is **Reasonable Intelligent Nationalist Optimists**. The project reclaims “RINO” as an invitation to reason, evidence, national purpose, optimism, and respectful disagreement across prior political identities.
 
 This repository does **not** establish an officially recognized political party, ballot-qualified organization, political committee, tax-exempt entity, fundraising operation, membership organization, leadership slate, endorsement, or adopted policy platform.
 
@@ -15,7 +15,7 @@ This repository does **not** establish an officially recognized political party,
 - PWA metadata and offline shell behavior;
 - a SwiftUI iPhone project that reads the synchronized public export;
 - operating, editorial, privacy, security, research, data, interview, and deployment documentation;
-- private-preview hosting configuration.
+- protected-preview and temporary public static-hosting configuration.
 
 ## Local workflow
 
@@ -33,4 +33,4 @@ The website’s canonical content source is `content/public-content.json`. Run `
 
 ## Status gates
 
-Donations, supporter submissions, formal membership, endorsements, public launch, committee claims, tax claims, and ballot-access claims remain inactive. See `docs/WORKING_PRODUCT_BRIEF.md` and the in-product formation ledger.
+Donations, supporter submissions, formal membership, endorsements, durable launch claims, committee claims, tax claims, and ballot-access claims remain inactive. See `docs/WORKING_PRODUCT_BRIEF.md` and the in-product formation ledger.

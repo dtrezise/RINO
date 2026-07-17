@@ -2,13 +2,14 @@ import Link from "next/link";
 import Image from "next/image";
 import { EvidenceCard } from "@/components/EvidenceCard";
 import { content, eboxes } from "@/lib/content";
+import { sitePath } from "@/lib/site-paths";
 
 export default function Home() {
   return (
     <main id="main-content">
       <section className="hero section-shell">
         <div className="hero-copy">
-          <p className="eyebrow">A proposed American political party / private first pass</p>
+          <p className="eyebrow">A proposed American political party / working first pass</p>
           <h1>Disagree like neighbors.<br /><em>Govern like the country depends on it.</em></h1>
           <p className="hero-deck">
             RINO flips a partisan insult into a working invitation: bring reason, independent judgment,
@@ -29,7 +30,7 @@ export default function Home() {
             </div>
             <Image
               className="mascot-image"
-              src="/rino-mascot-v1.png"
+              src={sitePath("/rino-mascot-v1.png")}
               width={1024}
               height={1536}
               alt="A calm, powerful rhinoceros standing squarely, illustrated in navy ink with red and gold accents."
@@ -115,7 +116,7 @@ export default function Home() {
       <section className="section-shell participation-callout">
         <p className="eyebrow">Build the table before taking a side</p>
         <h2>The first act is listening.</h2>
-        <p>This private build includes participation routes but deliberately keeps sign-up, donations, and formal membership inactive until governance, privacy, and legal requirements are approved.</p>
+        <p>This working build includes participation routes but deliberately keeps sign-up, donations, and formal membership inactive until governance, privacy, and legal requirements are approved.</p>
         <Link className="button button-red" href="/act/">Explore participation routes</Link>
       </section>
     </main>

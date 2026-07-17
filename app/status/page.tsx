@@ -14,7 +14,7 @@ const gates = [
   ["Committee and fundraising", "CLOSED", "No treasurer, depository, processor, compliance system, disclaimers, or authority to solicit contributions has been established here."],
   ["State ballot strategy", "NOT STARTED", "State-by-state law, deadlines, petition rules, candidate strategy, and retention requirements require live research."],
   ["Federal party qualification", "NOT ESTABLISHED", "A name, website, or committee filing alone does not establish qualified national-party status."],
-  ["Public launch", "DAN NEEDED", "The project remains a private working preview until explicit approval."],
+  ["Temporary public preview", "ACTIVE", "Dan approved a temporary public website preview. This does not establish party, committee, ballot, membership, or fundraising status."],
 ];
 
 export default function StatusPage() {

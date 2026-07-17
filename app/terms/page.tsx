@@ -2,14 +2,14 @@ import { PageMasthead } from "@/components/PageMasthead";
 
 export const metadata = {
   title: "Terms and disclosures",
-  description: "Working terms and status disclosures for the private RINO product preview.",
+  description: "Working terms and status disclosures for the RINO product preview.",
   alternates: { canonical: "/terms/" },
 };
 
 export default function TermsPage() {
   return (
     <main id="main-content" className="section-shell page-shell narrow-page policy-page">
-      <PageMasthead eyebrow="Terms and disclosures / private preview" title="A product preview is not an organization filing." summary="These working disclosures reduce confusion while the party concept, governance, and legal structure remain unresolved." />
+      <PageMasthead eyebrow="Terms and disclosures / public preview" title="A product preview is not an organization filing." summary="These working disclosures reduce confusion while the party concept, governance, and legal structure remain unresolved." />
       <h2>No established party status</h2>
       <p>RINO is presented here as a proposed project. This site does not claim official recognition, ballot qualification, FEC-qualified national or state party status, political-committee registration, tax-exempt status, or authority to nominate candidates.</p>
       <h2>No fundraising</h2>

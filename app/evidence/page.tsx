@@ -1,6 +1,7 @@
 import { EvidenceCard } from "@/components/EvidenceCard";
 import { PageMasthead } from "@/components/PageMasthead";
 import { eboxes } from "@/lib/content";
+import { sitePath } from "@/lib/site-paths";
 
 export const metadata = {
   title: "Evidence archive",
@@ -19,7 +20,7 @@ export default function EvidencePage() {
       <div className="archive-toolbar" aria-label="Archive summary">
         <span><strong>{eboxes.length}</strong> public records</span>
         <span><strong>100%</strong> working review status</span>
-        <a href="/data/rino-public-export.json">Download JSON export</a>
+        <a href={sitePath("/data/rino-public-export.json")}>Download JSON export</a>
       </div>
       <div className="evidence-grid evidence-grid-archive">
         {eboxes.map((ebox) => <EvidenceCard key={ebox.id} ebox={ebox} />)}
