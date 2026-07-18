@@ -10,7 +10,14 @@ export default function Home() {
       <section className="hero section-shell">
         <div className="hero-copy">
           <p className="eyebrow">A proposed American political party / working first pass</p>
-          <h1>Disagree like neighbors.<br /><em>Govern like the country depends on it.</em></h1>
+          <div className="hero-name-lockup">
+            <h1 className="hero-name">RINO</h1>
+            <p className="hero-expanded-name">
+              <span><strong>R</strong>easonable <strong>I</strong>ndividuals</span>
+              <span><strong>N</strong>ational <strong>O</strong>rganization</span>
+            </p>
+          </div>
+          <h2 className="hero-thesis">Disagree like neighbors.<br /><em>Govern like the country depends on it.</em></h2>
           <p className="hero-deck">
             RINO flips a partisan insult into a working invitation: bring reason, independent judgment,
             national purpose, and optimism back to the table—without demanding that everyone become a centrist.
@@ -43,13 +50,6 @@ export default function Home() {
             <h2 id="mascot-heading">Strength without spectacle.</h2>
             <p>Resolve without demonization. Tough enough to stand its ground—and steady enough to listen.</p>
           </div>
-          <div className="identity-definition">
-            <span>Reasonable</span>
-            <span>Individuals</span>
-            <span>National</span>
-            <span>Organization</span>
-          </div>
-          <p className="identity-note">Current working expansion / selected July 17, 2026.</p>
         </div>
       </section>
 

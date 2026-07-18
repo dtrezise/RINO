@@ -4,7 +4,7 @@
 
 The first-pass identity combines an editorial seal with a dignified rhinoceros mascot. The rhino is naturally powerful, calm, forward-standing, and alert: strength without spectacle and resolve without demonization. It is not costumed, militarized, enraged, or rendered as a childish cartoon. The illustration uses the project’s ink, paper, navy, civic red, and muted gold system, emerging from a field of repeated “noise” as a composed visual signal.
 
-A circular `R` seal, disciplined typography, registration marks, status stamps, paper rules, and evidence-ledger hierarchy still signal an institution under construction. No government seal, flag lockup, official eagle, or misleading public-authority device is used.
+A circular `R` seal, disciplined typography, registration marks, status stamps, paper rules, and evidence-ledger hierarchy still signal an institution under construction. The landing page leads with an oversized `RINO` wordmark and immediately binds it to `Reasonable Individuals / National Organization`; the mascot supports that identity instead of carrying the definition. No government seal, flag lockup, official eagle, or misleading public-authority device is used.
 
 ## Voice
 
