@@ -20,13 +20,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       title: ebox.title,
       description: `${ebox.claimStatus}: ${ebox.factualSummary}`,
       url: `/evidence/${ebox.slug}/`,
-      images: [{ url: "/og.png", width: 1200, height: 630, alt: `RINO evidence: ${ebox.title}` }],
+      images: [{ url: "/og-v2.png", width: 1200, height: 630, alt: `RINO evidence: ${ebox.title}` }],
     },
     twitter: {
       card: "summary_large_image",
       title: ebox.title,
       description: `${ebox.claimStatus}: ${ebox.factualSummary}`,
-      images: ["/og.png"],
+      images: ["/og-v2.png"],
     },
   };
 }

@@ -24,6 +24,8 @@ for (const route of routes) {
   const file = new URL(`.${route}index.html`, outputDirectory);
   const html = await readFile(file, "utf8");
   assert.match(html, /TEMPORARY PUBLIC WORKING PREVIEW/);
+  assert.match(html, /og-v2\.png/);
+  assert.doesNotMatch(html, /\/og\.png/);
   assert.doesNotMatch(html, /github\.com|>\s*GitHub\s*</i, `${route} must not advertise the repository`);
 
   for (const [, reference] of html.matchAll(/(?:href|src)="(\/[^"#?]*)/g)) {

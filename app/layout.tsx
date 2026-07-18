@@ -30,13 +30,13 @@ export function generateMetadata(): Metadata {
       title: "RINO — Disagree like neighbors",
       description: "A proposed party for evidence, respect, and productive disagreement.",
       url: siteUrl("/"),
-      images: [{ url: siteUrl("/og.png"), width: 1200, height: 630, alt: "RINO working preview" }],
+      images: [{ url: siteUrl("/og-v2.png"), width: 1200, height: 630, alt: "RINO temporary public working preview" }],
     },
     twitter: {
       card: "summary_large_image",
       title: "RINO — Disagree like neighbors",
       description: "A proposed party for evidence, respect, and productive disagreement.",
-      images: [siteUrl("/og.png")],
+      images: [siteUrl("/og-v2.png")],
     },
   };
 }

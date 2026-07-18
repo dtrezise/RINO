@@ -45,11 +45,11 @@ export default function Home() {
           </div>
           <div className="identity-definition">
             <span>Reasonable</span>
-            <span>Intelligent</span>
-            <span>Nationalist</span>
-            <span>Optimists</span>
+            <span>Individuals</span>
+            <span>National</span>
+            <span>Organization</span>
           </div>
-          <p className="identity-note">Original expansion / under review with five alternatives below.</p>
+          <p className="identity-note">Current working expansion / selected July 17, 2026.</p>
         </div>
       </section>
 
@@ -98,9 +98,9 @@ export default function Home() {
       <section className="name-lab">
         <div className="section-shell">
           <div className="section-intro">
-            <p className="eyebrow">Name lab / DAN NEEDED before adoption</p>
-            <h2>Six ways to reclaim RINO</h2>
-            <p>The original remains the working name. These five alternatives test different shades of independence, inclusion, reform, and negotiation without declaring ideology.</p>
+            <p className="eyebrow">Name lab / current working expansion</p>
+            <h2>Reasonable Individuals National Organization</h2>
+            <p>This is now the working meaning of RINO. Five earlier alternatives remain below for comparison, but they are not the current expansion.</p>
           </div>
           <ol className="acronym-list">
             {content.project.acronymCandidates.map((candidate, index) => (

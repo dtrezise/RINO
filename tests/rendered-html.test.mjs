@@ -26,6 +26,9 @@ test("server-renders the RINO product shell without starter metadata", async () 
   assert.match(html, /rino-mascot-v1\.png/);
   assert.match(html, /A calm, powerful rhinoceros standing squarely/);
   assert.match(html, /Strength without spectacle/);
+  assert.match(html, /Reasonable Individuals National Organization/);
+  assert.doesNotMatch(html, /Reasonable Intelligent Nationalist Optimists/);
+  assert.match(html, /og-v2\.png/);
   assert.match(html, /No donations/);
   assert.doesNotMatch(html, /codex-preview|Your site is taking shape|react-loading-skeleton/);
   assert.match(response.headers.get("content-security-policy") ?? "", /frame-ancestors 'none'/);

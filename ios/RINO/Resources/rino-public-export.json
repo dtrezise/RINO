@@ -3,14 +3,14 @@
   "generatedAt": "2026-07-17T16:00:00Z",
   "project": {
     "name": "RINO",
-    "expandedName": "Reasonable Intelligent Nationalist Optimists",
+    "expandedName": "Reasonable Individuals National Organization",
     "status": "WORKING — proposed organization",
     "statusSummary": "RINO is an exploratory civic and political-party project. It is not presented as an officially recognized, ballot-qualified, FEC-qualified, or tax-exempt organization.",
     "tagline": "Disagree like neighbors. Govern like the country depends on it.",
     "acronymCandidates": [
       {
-        "words": "Reasonable Intelligent Nationalist Optimists",
-        "note": "Original working expansion supplied by the founder."
+        "words": "Reasonable Individuals National Organization",
+        "note": "Current working expansion selected by the founder."
       },
       {
         "words": "Rational Independent Neighborly Optimists",
@@ -299,6 +299,13 @@
     }
   ],
   "updates": [
+    {
+      "id": "update-003",
+      "date": "2026-07-17",
+      "type": "IDENTITY NOTE",
+      "title": "The RINO working expansion has been updated",
+      "summary": "RINO now means Reasonable Individuals National Organization throughout the website and synchronized public product data."
+    },
     {
       "id": "update-002",
       "date": "2026-07-17",

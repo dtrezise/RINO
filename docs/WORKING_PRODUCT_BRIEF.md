@@ -4,7 +4,7 @@ Reviewed: 2026-07-17
 
 ## Product thesis
 
-RINO is a proposed U.S. political-party and civic-participation product that flips “Republicans In Name Only” into a positive invitation. The original working expansion is **Reasonable Intelligent Nationalist Optimists**. The founder’s hypothesis is that the two dominant parties have become so polarizing that a credible third force could prevent easy majorities, make negotiation practical, and reward respectful discourse without requiring ideological centrism.
+RINO is a proposed U.S. political-party and civic-participation product that flips “Republicans In Name Only” into a positive invitation. The current working expansion is **Reasonable Individuals National Organization**. The founder’s hypothesis is that the two dominant parties have become so polarizing that a credible third force could prevent easy majorities, make negotiation practical, and reward respectful discourse without requiring ideological centrism.
 
 The product should feel like a serious civic institution: documentary, inspectable, welcoming, and able to state uncertainty. Its first act of credibility is to disclose that RINO is not yet an established party or committee and cannot accept donations.
 
@@ -34,7 +34,9 @@ The first native app supports Home, Principles, Platform labs, Evidence, Saved, 
 
 ## Name lab
 
-Five requested alternatives to the original expansion:
+Current working expansion: **Reasonable Individuals National Organization**.
+
+Five retained alternatives:
 
 1. Rational Independent Neighborly Optimists
 2. Responsible Inclusive National Optimists
@@ -42,7 +44,7 @@ Five requested alternatives to the original expansion:
 4. Reformers Integrating National Opportunity
 5. Reason Integrity Negotiation Optimism
 
-All remain working candidates. `DAN NEEDED`: select an expansion only after political, linguistic, trademark, domain, and coalition review.
+The five alternatives remain recorded for comparison, but they are not the current expansion. Political, linguistic, trademark, domain, and coalition review remain future diligence steps.
 
 ## Success signals for the temporary public preview
 

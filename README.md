@@ -1,6 +1,6 @@
 # RINO civic platform — WORKING
 
-RINO is a temporary public working preview for a proposed U.S. political party. The current working expansion is **Reasonable Intelligent Nationalist Optimists**. The project reclaims “RINO” as an invitation to reason, evidence, national purpose, optimism, and respectful disagreement across prior political identities.
+RINO is a temporary public working preview for a proposed U.S. political party. The current working expansion is **Reasonable Individuals National Organization**. The project reclaims “RINO” as an invitation to reason, evidence, national purpose, optimism, and respectful disagreement across prior political identities.
 
 This repository does **not** establish an officially recognized political party, ballot-qualified organization, political committee, tax-exempt entity, fundraising operation, membership organization, leadership slate, endorsement, or adopted policy platform.
 
