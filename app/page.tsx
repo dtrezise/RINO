@@ -13,8 +13,8 @@ export default function Home() {
           <div className="hero-name-lockup">
             <h1 className="hero-name">RINO</h1>
             <p className="hero-expanded-name">
-              <span><strong>R</strong>easonable <strong>I</strong>ndividuals</span>
-              <span><strong>N</strong>ational <strong>O</strong>rganization</span>
+              <span><strong>R</strong>ational <strong>I</strong>ndependent</span>
+              <span><strong>N</strong>ational <strong>O</strong>ptimists</span>
             </p>
           </div>
           <h2 className="hero-thesis">Disagree like neighbors.<br /><em>Govern like the country depends on it.</em></h2>
@@ -99,7 +99,7 @@ export default function Home() {
         <div className="section-shell">
           <div className="section-intro">
             <p className="eyebrow">Name lab / current working expansion</p>
-            <h2>Reasonable Individuals National Organization</h2>
+            <h2>Rational Independent National Optimists</h2>
             <p>This is now the working meaning of RINO. Five earlier alternatives remain below for comparison, but they are not the current expansion.</p>
           </div>
           <ol className="acronym-list">

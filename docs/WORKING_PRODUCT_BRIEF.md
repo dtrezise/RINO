@@ -1,10 +1,10 @@
 # WORKING product brief — RINO v0.1
 
-Reviewed: 2026-07-17
+Reviewed: 2026-10-07
 
 ## Product thesis
 
-RINO is a proposed U.S. political-party and civic-participation product that flips “Republicans In Name Only” into a positive invitation. The current working expansion is **Reasonable Individuals National Organization**. The founder’s hypothesis is that the two dominant parties have become so polarizing that a credible third force could prevent easy majorities, make negotiation practical, and reward respectful discourse without requiring ideological centrism.
+RINO is a proposed U.S. political-party and civic-participation product that flips “Republicans In Name Only” into a positive invitation. The current working expansion is **Rational Independent National Optimists**. The founder’s hypothesis is that the two dominant parties have become so polarizing that a credible third force could prevent easy majorities, make negotiation practical, and reward respectful discourse without requiring ideological centrism.
 
 The product should feel like a serious civic institution: documentary, inspectable, welcoming, and able to state uncertainty. Its first act of credibility is to disclose that RINO is not yet an established party or committee and cannot accept donations.
 
@@ -34,11 +34,11 @@ The first native app supports Home, Principles, Platform labs, Evidence, Saved, 
 
 ## Name lab
 
-Current working expansion: **Reasonable Individuals National Organization**.
+Current working expansion: **Rational Independent National Optimists**.
 
 Five retained alternatives:
 
-1. Rational Independent Neighborly Optimists
+1. Reasonable Individuals National Organization
 2. Responsible Inclusive National Optimists
 3. Respectful Informed Nationbuilding Organizers
 4. Reformers Integrating National Opportunity
